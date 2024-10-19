@@ -201,13 +201,4 @@ const dashboardButtonStyle = {
   borderRadius:'8px'
 };
 
-// New style for the search bar
-const searchBarStyle = {
-  width: '100%',
-  padding: '10px',
-  margin: '20px 0',
-  border: '1px solid #ccc',
-  borderRadius: '4px',
-};
-
 export default NoteList;

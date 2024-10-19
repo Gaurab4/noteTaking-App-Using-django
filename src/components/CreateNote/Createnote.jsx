@@ -20,7 +20,7 @@ const CreateNote = ({ notes, setNotes }) => {
     const noteToAdd = { ...newNote, id: Date.now() };
     setNotes([...notes, noteToAdd]);
    
-
+    setNewNote({ title: '', content: '', status: 'Pending', category: '' });
   };
 
   return (
